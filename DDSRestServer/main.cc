@@ -70,8 +70,8 @@ namespace {
             cout << "Usage:" << endl
             << "\t--master=[ip:port], current: " << master << endl
             << "\t--resthost=[ip:port], current: " << restHost << endl
-            << "\t--help (Shows this Usage Information)" << endl
-            << "\t[--use-revocable-resources]" << endl;
+            << "\t[--use-revocable-resources]" << endl
+            << "\t--help (Shows this Usage Information)" << endl;
             return true;
         }
 

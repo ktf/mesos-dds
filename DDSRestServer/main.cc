@@ -27,7 +27,7 @@ using namespace DDSMesos::Common;
 namespace {
     string master = "localhost:5050";
     string restHost = "localhost:1234";
-    string useRevocableResources = false;
+    bool useRevocableResources = false;
 
     bool processArguments(int argc, char **argv) {
         // Options
